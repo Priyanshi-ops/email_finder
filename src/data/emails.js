@@ -1,0 +1,85 @@
+export const categories = [
+  { id: 'skincare', label: 'Skincare', icon: 'FiDroplet' },
+  { id: 'jobs', label: 'Jobs', icon: 'FiBriefcase' },
+  { id: 'food', label: 'Food', icon: 'FiCoffee' },
+];
+
+export const mockEmails = [
+  // Skincare
+  {
+    id: 1,
+    categoryId: 'skincare',
+    sender: 'Kiehl\'s',
+    recipient: 'me@example.com',
+    subject: 'Your winter skincare routine is here ❄️',
+    preview: 'Discover our top picks for keeping your skin hydrated during the cold months.',
+    content: `Hi there,\n\nWinter is harsh on your skin, but we've got you covered. Discover our top picks for keeping your skin hydrated and glowing during the cold months.\n\nShop the winter collection now and get a free travel-sized Ultra Facial Cream with orders over $50.\n\nBest,\nThe Kiehl's Team`,
+    date: '10:30 AM',
+    fullDate: 'Oct 24, 2023, 10:30 AM',
+    unread: true,
+  },
+  {
+    id: 2,
+    categoryId: 'skincare',
+    sender: 'Sephora',
+    recipient: 'me@example.com',
+    subject: 'New Arrivals: The Ordinary',
+    preview: 'Check out the latest additions from The Ordinary. High-quality skincare at honest prices.',
+    content: `Hello Beauty Insider,\n\nThe Ordinary just dropped new products and we know you'll love them! Experience high-quality ingredients without the markup.\n\nFrom the new Multi-Peptide Lash and Brow Serum to their latest moisturizers, upgrade your routine today.\n\nHappy glowing,\nSephora`,
+    date: 'Yesterday',
+    fullDate: 'Oct 23, 2023, 2:15 PM',
+    unread: false,
+  },
+  
+  // Jobs
+  {
+    id: 3,
+    categoryId: 'jobs',
+    sender: 'Google Careers',
+    recipient: 'me@example.com',
+    subject: 'Interview Invitation: Frontend Engineer',
+    preview: 'Congratulations! We would like to invite you to the next round of interviews for the Frontend Engineer role.',
+    content: `Dear Candidate,\n\nCongratulations! We were very impressed with your background and would like to invite you to the next round of interviews for the Frontend Engineer role at Google.\n\nPlease let us know your availability for a 45-minute technical screen next week.\n\nBest regards,\nGoogle Recruiting`,
+    date: '09:15 AM',
+    fullDate: 'Oct 24, 2023, 09:15 AM',
+    unread: true,
+  },
+  {
+    id: 4,
+    categoryId: 'jobs',
+    sender: 'LinkedIn',
+    recipient: 'me@example.com',
+    subject: 'You appeared in 14 searches this week',
+    preview: 'See who is looking at your profile. Your profile views are up by 20%.',
+    content: `Hi,\n\nYou appeared in 14 searches this week. Your profile views are up by 20% compared to last week.\n\nTop companies searching for you include Microsoft, Amazon, and Stripe. Keep your profile updated to attract more opportunities!\n\nCheers,\nThe LinkedIn Team`,
+    date: 'Oct 20',
+    fullDate: 'Oct 20, 2023, 11:45 AM',
+    unread: false,
+  },
+  
+  // Food
+  {
+    id: 5,
+    categoryId: 'food',
+    sender: 'Swiggy',
+    recipient: 'me@example.com',
+    subject: '50% OFF on your next craving 🍔',
+    preview: 'Craving something delicious? Order now and get a flat 50% discount on your favorite restaurants.',
+    content: `Hey foodie!\n\nCraving something delicious? We've got a treat for you. Order now and get a flat 50% discount (up to $10) on your favorite restaurants.\n\nUse code: CRAVE50 at checkout.\n\nHurry, offer ends tonight!\n\nEnjoy your meal,\nSwiggy`,
+    date: '12:00 PM',
+    fullDate: 'Oct 24, 2023, 12:00 PM',
+    unread: true,
+  },
+  {
+    id: 6,
+    categoryId: 'food',
+    sender: 'UberEats',
+    recipient: 'me@example.com',
+    subject: 'Your receipt for order #99245',
+    preview: 'Thanks for ordering with UberEats. Here is your receipt for your order from Joe\'s Pizza.',
+    content: `Thanks for ordering with UberEats!\n\nHere is your receipt for your order from Joe's Pizza on Oct 22.\n\nOrder total: $24.50\n- 1x Pepperoni Pizza: $18.00\n- 1x Garlic Knots: $4.00\n- Taxes & Fees: $2.50\n\nHope you enjoyed your meal!`,
+    date: 'Oct 22',
+    fullDate: 'Oct 22, 2023, 8:30 PM',
+    unread: false,
+  },
+];
