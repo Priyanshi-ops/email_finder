@@ -75,7 +75,7 @@ function App() {
       setEmails(emailDetails);
     } catch (err) {
       console.error('Email fetch error:', err);
-      alert('Emails fetch nahi hue. Please try again.');
+      alert('Emails are fetching...');
     } finally {
       setLoading(false);
     }
@@ -176,7 +176,7 @@ function App() {
         fontSize: '18px',
         color: '#666'
       }}>
-        ⏳ Emails fetch ho rahi hain...
+        ⏳ Emails fetching..
       </div>
     );
   }
